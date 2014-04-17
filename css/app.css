@@ -1,0 +1,56 @@
+html,
+button,
+input,
+select,
+textarea,
+.pure-g [class*="pure-u"] {
+  /* Set your content font stack here: */
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  background-image: url('../media/woodbg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+#movement {
+  position: relative;
+  bottom: 18px;
+  left: 70px;
+}
+#add {
+  margin-left: 10px;
+}
+#avatar {
+  margin-left: 10px;
+}
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+.horizontal {
+  background-color: tan !important;
+}
+.vertical {
+  background-color: tan !important;
+}
+#add-score {
+  margin-left: 10px;
+}
+#movement {
+  display: block;
+  margin-top: 20px;
+}
+.dice {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+#roll {
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+.frozen {
+  height: 30px;
+  width: 30px;
+}
